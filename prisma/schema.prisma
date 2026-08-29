@@ -1,0 +1,20 @@
+// use prisma-next
+
+model College {
+  id        Int    @id @default(autoincrement())
+  name      String
+  location  String
+  type      String
+  course    String
+  fees      String
+  rating    Float
+  placement String
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  name         String
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
