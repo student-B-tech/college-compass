@@ -295,12 +295,6 @@ export default function AdminPage() {
             >
               Saved
             </a>
-            <a
-               href="/saved"
-               className="font-medium text-slate-600 hover:text-blue-600"
-             >
-              Saved
-            </a>
           </div>
         </div>
       </nav>
