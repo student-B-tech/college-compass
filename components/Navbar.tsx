@@ -110,6 +110,12 @@ export default function Navbar() {
           >
             Saved
           </Link>
+          <Link
+          href="/admin"
+           className="font-medium text-slate-600 hover:text-blue-600"
+        >
+       Admin
+          </Link>
 
           {!loading && user ? (
             <>
